@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar {
+    background-color: #024427;
+    color: white;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.top-bar-tel {
+    font-size: 10px;
+}
+
+.top-bar-content {
+    font-size: 10px;
+}
+
+.top-bar-select {
+    font-size: 10px;
+    display: flex;
+    gap: 20px;
+}
