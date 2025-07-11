@@ -5,20 +5,68 @@
     <meta name="viewport" content="width=`, initial-scale=1.0">
     <title>ShopCart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     
 </head>
 <body>
     <div class="top-bar">
         <div class="top-bar-tel">
-           <p>+001538847</p></div>
+           <i class="fas fa-phone-alt phone-icon"></i>
+           <span>+001538847</span></div>
+
         <div class="top-bar-content">
-        Get 50% off on your first order  |  Shop Now
+            Get 50% off on your first order  |  Shop Now
         </div>
+
         <div class="top-bar-select">
-       <p>Eng</p>
-       <p>Location</p>
+           <p>Eng</p>
+           <p>Location</p>
         </div>
     </div>
-    <i class="fi fi-br-phone-call"></i>
+
+    <div class="header-bar">
+        <div class="icon-logo">
+            <img class="logo" src="img/logo.png" alt="Logo">
+        </div>
+
+        <ul class="menu-bar">
+            <li><a href="#">Categorise <i class="fi fi-rr-angle-down angle-down"></i></a></li>
+            <li><a href="#">Deal</a></li>
+            <li><a href="#">What's New</a></li>
+            <li><a href="#">Delivery</a></li>
+        </ul>
+
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button type="submit" class="search-icon"><i class="fi fi-rr-search search-icon-1"></i></button>
+        </div>
+
+        <div class="account-bar-cart">
+            <i class="fi fi-rr-user user-icon"></i>
+            <span class="acc-cart">Account</span>
+            <i class="fi fi-rr-shopping-cart shopping-cart"></i>
+            <span class="acc-cart">Cart</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="box-content">Grab Upto 50% Off On <br>Selected Headphones</div>
+        <button class="btn-box">Buy Now</button>
+        <div class="img-ad"><img src="img/ad.png" alt="ad-box"></div>
+    </div>
+
+<span>
+    <button class="btn-type">Headphone Type</button>
+    <button class="btn-type">Price</button>
+    <button class="btn-type">Review</button>
+    <button class="btn-type">Color</button>
+    <button class="btn-type">Meterial</button>
+    <button class="btn-type">Offer</button>
+    <button class="btn-type">All Fillters</button>
+</span>
 </body>
 </html>
