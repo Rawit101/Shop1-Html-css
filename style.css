@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .dm-sans-font {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -34,6 +33,13 @@
     display: flex;
     gap: 20px;
 
+}
+
+.globe-icon {
+    font-size: 13px;
+    color: #ffffff;
+    position: relative;
+    right: 13px;
 }
 
 .phone-icon {
@@ -183,65 +189,16 @@ input[type="text"]:focus {
     position: relative;
     gap: 20px;
     margin-left: 60px;
-    padding-top: 35px;
+    padding-top: 40px;
 
 }
 
-.btn-sec-1 {
-    background-color: #dbdbdb;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font: 500 15px "DM Sans", sans-serif;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-sec-2 {
-    background-color: #dbdbdb;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font: 500 15px "DM Sans", sans-serif;
-    border: none;
-    cursor: pointer;
-}
-
-
-.btn-sec-3 {
-    background-color: #dbdbdb;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font: 500 15px "DM Sans", sans-serif;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-sec-4 {
-    background-color: #dbdbdb;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font: 500 15px "DM Sans", sans-serif;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-sec-5 {
-    background-color: #dbdbdb;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font: 500 15px "DM Sans", sans-serif;
-    border: none;
-    cursor: pointer;
-}
-
-.btn-sec-6 {
-    background-color: #dbdbdb;
-    padding: 10px 15px;
-    border-radius: 20px;
-    font: 500 15px "DM Sans", sans-serif;
-    border: none;
-    cursor: pointer;
-}
-
+.btn-sec-1,
+.btn-sec-2,
+.btn-sec-3,
+.btn-sec-4,
+.btn-sec-5,
+.btn-sec-6,
 .btn-sec-7 {
     background-color: #dbdbdb;
     padding: 10px 15px;
@@ -259,4 +216,128 @@ input[type="text"]:focus {
     border: 2px solid rgb(191, 191, 191);
     cursor: pointer;
     margin-left: 375px;
+}
+
+.section {
+    font: 700 25px "DM Sans", sans-serif;
+    margin-left: 80px;
+    padding-top: 30px;
+    color: #000000;
+}
+
+.headphone {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    position: relative;
+    justify-content: center;
+    cursor: zoom-in;
+}
+
+.headphone1 {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    position: relative;
+    justify-content: center;
+}
+
+
+.like {
+    position: relative;
+    top: 5px;
+    left: 240px;
+    color: #000000;
+    font-size: 20px;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+
+.like:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.item-detail {
+    font: 800 17px "DM Sans", sans-serif;
+    padding-top: 55px;
+    color: #000000;
+}
+
+.price1 {
+    margin-left: 38px;
+}
+
+.price2 {
+    margin-left: 114px;
+}
+
+.price3 {
+    margin-left: 70px;
+}
+
+.price4 {
+    margin-left: 47px;
+}
+
+.headphone-detail {
+    font: 500 12px "DM Sans", sans-serif;
+    padding-top: 5px;
+    color: #6b6b6b;
+}
+
+.star {
+    color: #00ff2a;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.star-half {
+    color: #00ff2a;
+    font-size: 15px;
+    padding-top: 10px;
+
+}
+
+.people-review {
+    font: 500 12px "DM Sans", sans-serif;
+    margin-left: 3px;
+    color: #6b6b6b;
+}
+
+.add-cart {
+    padding: 8px 25px;
+    border-radius: 20px;
+    font: 500 15px "DM Sans", sans-serif;
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+}
+
+.add-cart:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.product-card {
+    width: 310px;
+    height: 310px;
+    background: #e4e4e4;
+    border-radius: 10px;
+    padding: 16px;
 }
