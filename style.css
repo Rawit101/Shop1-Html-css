@@ -261,7 +261,7 @@ input[type="text"]:focus {
 }
 
 .like:hover {
-    background-color: #000000;
+    background-color: #024427;
     color: #ffffff;
 }
 
@@ -284,7 +284,23 @@ input[type="text"]:focus {
 }
 
 .price4 {
-    margin-left: 47px;
+    margin-left: 41px;
+}
+
+.price5 {
+    margin-left: 108px;
+}
+
+.price6 {
+    margin-left: 108px;
+}
+
+.price7 {
+    margin-left: 73px;
+}
+
+.price8 {
+    margin-left: 3px;
 }
 
 .headphone-detail {
@@ -322,8 +338,9 @@ input[type="text"]:focus {
 }
 
 .add-cart:hover {
-    background-color: #000000;
+    background-color: #024427;
     color: #ffffff;
+    border: none;
 }
 
 .product-list {
@@ -332,6 +349,15 @@ input[type="text"]:focus {
     gap: 35px;
     justify-content: center;
     padding-top: 35px;
+}
+
+.product-list-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+    padding-top: 200px;
+    margin-bottom: 170px;
 }
 
 .product-card {
