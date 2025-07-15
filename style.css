@@ -357,7 +357,7 @@ input[type="text"]:focus {
     gap: 35px;
     justify-content: center;
     padding-top: 200px;
-    margin-bottom: 170px;
+    margin-bottom: 250px;
 }
 
 .product-card {
@@ -366,4 +366,66 @@ input[type="text"]:focus {
     background: #e4e4e4;
     border-radius: 10px;
     padding: 16px;
+}
+
+.footer {
+    background-color: #024427;
+    width: 100%;
+    height: 480px;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.mains {
+    color: #ffffff;
+    font: 700 30px "DM Sans", sans-serif;
+    padding-top: 40px;
+    margin-right: 40px;
+}
+
+.footer-links {
+    font: 500 15px "DM Sans", sans-serif;
+    padding-top: 20px;
+    list-style: none;
+    min-width: 100px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    border-bottom: none;
+    color: #ffffff;
+}
+
+.section-footer a {
+    text-decoration: none;
+    color: #b0b0b0;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+    border: 0.5px solid #bdbdbd;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+    padding-top: 40px;
+    font: 500 15px "DM Sans", sans-serif;
+    color: #ffffff;
+    justify-content: space-evenly;
+}
+
+.column {
+    flex: 1;
+    min-width: 150px;
 }
